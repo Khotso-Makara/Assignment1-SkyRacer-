@@ -1,0 +1,135 @@
+/* ===================== Sky Racer - Shared Stylesheet ===================== */
+
+.screen-root {
+    -fx-background-color: linear-gradient(to bottom, #0b1220, #101b33);
+}
+
+.title-text {
+    -fx-font-family: "Segoe UI Black", "Arial Black", sans-serif;
+    -fx-font-size: 52px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to bottom, #ffd166, #ef476f);
+    -fx-fill: linear-gradient(to bottom, #ffd166, #ef476f);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.65), 12, 0.4, 0, 4);
+}
+
+.subtitle-text {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 16px;
+    -fx-text-fill: #a9b6d6;
+    -fx-fill: #a9b6d6;
+}
+
+.section-heading {
+    -fx-font-family: "Segoe UI Semibold", Arial, sans-serif;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffd166;
+    -fx-fill: #ffd166;
+}
+
+.body-text {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #dbe2f3;
+    -fx-fill: #dbe2f3;
+}
+
+.clean-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+.clean-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.size-message {
+    -fx-background-color: rgba(239, 71, 111, 0.90);
+    -fx-background-radius: 18;
+    -fx-padding: 8 18 8 18;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI Semibold", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+
+.hud-text {
+    -fx-font-family: "Consolas", "Courier New", monospace;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 4, 0.5, 0, 2);
+}
+
+/* Primary game buttons: rounded, gradient, animated hover/press */
+.game-button {
+    -fx-background-color: linear-gradient(to bottom, #3a86ff, #265bd1);
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI Semibold", Arial, sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 24;
+    -fx-padding: 12 32 12 32;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 6, 0.3, 0, 2);
+}
+
+.game-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #5aa0ff, #3a72e6);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.game-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #1f4fb8, #163c8c);
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+}
+
+.exit-button {
+    -fx-background-color: linear-gradient(to bottom, #ef476f, #c22c50);
+}
+
+.exit-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ff6a8b, #d94466);
+}
+
+.icon-button {
+    -fx-background-color: rgba(255,255,255,0.12);
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-background-radius: 50%;
+    -fx-min-width: 44px;
+    -fx-min-height: 44px;
+    -fx-cursor: hand;
+}
+
+.icon-button:hover {
+    -fx-background-color: rgba(255,255,255,0.25);
+}
+
+.card-panel {
+    -fx-background-color: rgba(255,255,255,0.06);
+    -fx-background-radius: 18;
+    -fx-border-color: rgba(255,255,255,0.15);
+    -fx-border-radius: 18;
+    -fx-border-width: 1;
+    -fx-padding: 24;
+}
+
+.toggle-row {
+    -fx-alignment: center-left;
+    -fx-spacing: 14;
+}
+
+.game-slider .track {
+    -fx-background-color: rgba(255,255,255,0.2);
+}
+
+.game-slider .thumb {
+    -fx-background-color: #ffd166;
+}
+
+.game-combo .list-cell {
+    -fx-text-fill: #101b33;
+}
